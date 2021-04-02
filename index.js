@@ -35,7 +35,7 @@ class Block {
         this.prevHash = prevHash;
         this.transaction = transaction;
         this.ts = ts;
-        this.nonce = Math.round(Math.random() * 9999);
+        this.nonce = Math.round(Math.random() * 999999999);
     }
     get hash() {
         const str = JSON.stringify(this);
