@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2020"],
+    "module": "CommonJS",
+    "target": "ES2019",
+    "types": ["node"],
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true
+  }
+}
